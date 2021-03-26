@@ -10,11 +10,10 @@
 
 /* page element style */
 .page {
-  padding: 1rem;
-  margin: 0px;
+  padding: 1rem 1rem 0rem 1rem;
+  margin: auto;
   height: fit-content;
-  /* ensures page covers viewport if content can't do it */
-  min-height: 100vh;
+  max-width: 800px;
   text-align: center;
 }
 
@@ -32,6 +31,7 @@
   right: 0px;
   z-index: 3;
   padding: 0.2rem;
+  margin: 0px;
   color: white;
   font-size: 0.5rem;
   font-style: initial; /* not inheriting from a parent */
