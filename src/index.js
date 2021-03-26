@@ -1,5 +1,7 @@
+// get all elements of document
 const element = document.documentElement;
 
+// define function that takes an element and returns its dimensions
 const measureEl = (el) => {
   return el.clientWidth + " x " + el.clientHeight;
 };
@@ -10,16 +12,30 @@ const measureEl = (el) => {
  */
 const setMeasure = (pages) => {
   pages.forEach((el) => {
-    console.log(el);
-    console.log(measureEl(el));
-    console.log(el.querySelectorAll("span"));
     el.querySelectorAll("span").item(0).textContent = measureEl(el);
   });
 };
 
+// get all h1 and p tag elements in page class
 pages = element.querySelectorAll(".page h1,p");
 setMeasure(pages);
 
+// when window is resized, call setMeasure function
 window.onresize = (event) => {
   setMeasure(pages);
+};
+
+// element.querySelector("h1").onclick = () => {
+//   if (element.querySelector("span").style.display === "none") {
+//     element.querySelector("span").style.display = "";
+//   }
+// };
+
+// make the first span element disappear when first h1 is clicked
+element.querySelector("h1").onclick = () => {
+  if (element.querySelector("span").style.display === "") {
+    element.querySelector("span").style.display = "none";
+  } else {
+    element.querySelector("span").style.display = "";
+  }
 };
