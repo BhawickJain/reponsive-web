@@ -12,3 +12,12 @@ Basic responsive web practices using modern HTML, CSS and Javascript practices w
 `[ ]` Annotation of a good basic HTML page.  
 `[ ]` Create a Text Centering example in a div  
 `[ ]` Use JS to detect the size of the div and print it in the middle of the div.  
+
+
+## `X-UA-Compatible` meta tag
+
+```
+<meta http-equiv="X-UA=Compatible" content="IE=edge">
+```
+
+You don't need it anymore, unless you are concerned with compatibilities anything before IE11 as explained by this [stackoverflow issue](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do).

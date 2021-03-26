@@ -1,39 +1,54 @@
 * {
-    color black;
-    background: white;
-    font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    margin: 0em;
-    padding: 0px;
-    box-sizing: border-box;
+  color: black;
+  background: white;
+  font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  margin: 0em;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 /* page element style */
 .page {
-    background-color:darkcyan;
-    color: white;
-    padding: 1rem;
-    margin: 0px;
-    height: 100vh;
-    text-align: center;
+  background-color: darkcyan;
+  color: white;
+  padding: 1rem;
+  margin: 0px;
+  height: 100vh;
+  text-align: center;
 }
 
 /* everything inside page elements */
-.page *{
-    background-color:rgb(0, 109, 139);
-    color: white;
-    padding: 1rem;
-    height: auto;
-    text-align: center;
-    position: relative
+.page * {
+  /* background-color:rgb(0, 109, 139); */
+  color: white;
+  padding: 1rem;
+  height: auto;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .size-label {
-    display: block;
-    position:absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 3;
-    padding: 0.2rem;
-    background-color: lightcoral;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  padding: 0.2rem;
+  font-size: 0.75rem;
+  font-weight: initial; /* not inheriting from a parent */
+  background-color: lightcoral;
+}
+
+h1 {
+  background-color: mediumspringgreen;
+  flex: 1;
+}
+
+p {
+  background-color: mediumvioletred;
+  flex: 2;
 }
