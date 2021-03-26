@@ -1,6 +1,6 @@
 * {
   color: black;
-  background: white;
+  background-color: #e7f0ff;
   font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
   margin: 0em;
@@ -10,18 +10,17 @@
 
 /* page element style */
 .page {
-  background-color: #e7f0ff;
   padding: 1rem;
   margin: 0px;
-  height: 100vh;
+  height: fit-content;
+  /* ensures page covers viewport if content can't do it */
+  min-height: 100vh;
   text-align: center;
 }
 
 /* everything inside page elements */
 .page * {
-  /* background-color:rgb(0, 109, 139); */
   padding: 1rem;
-  height: auto;
   text-align: left;
   position: relative;
 }
@@ -47,6 +46,14 @@ h1 {
 
 p {
   background-color: #ece8ef;
+}
+
+a {
+  background: none;
+  padding: initial !important;
+  margin: initial;
+  color: blue;
+  text-decoration: none;
 }
 
 /* use !important is there are further styles beyond print */
