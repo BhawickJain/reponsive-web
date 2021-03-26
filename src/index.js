@@ -25,12 +25,6 @@ window.onresize = (event) => {
   setMeasure(pages);
 };
 
-// element.querySelector("h1").onclick = () => {
-//   if (element.querySelector("span").style.display === "none") {
-//     element.querySelector("span").style.display = "";
-//   }
-// };
-
 // make the first span element disappear when first h1 is clicked
 element.querySelector("h1").onclick = () => {
   if (element.querySelector("span").style.display === "") {
