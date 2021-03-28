@@ -12,6 +12,8 @@ Basic responsive web practices using modern HTML, CSS and Javascript practices w
 `[x]` Annotation of a good basic HTML page.  
 `[x]` Create a Text Centering example in a div  
 `[x]` Use JS to detect the size of the div and print it in the middle of the div.  
+`[ ]` Add a section div class and style it.  
+`[ ]` Add a Night Mode button with appropriate JS / CSS behaviour. Best if JS can be avoided.  
 
 
 ## `X-UA-Compatible` meta tag
