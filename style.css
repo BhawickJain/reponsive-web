@@ -10,7 +10,7 @@
 
 /* page element style */
 .page {
-  padding: 1rem 1rem 0rem 1rem;
+  padding: 0rem;
   margin: auto;
   height: fit-content;
   max-width: 800px;
@@ -63,5 +63,11 @@ a {
 @media print {
   .size-label {
     display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .page {
+    padding: 1rem 0rem;
   }
 }
