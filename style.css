@@ -27,17 +27,21 @@
 }
 
 .size-label {
-  display: block;
+  display: -webkit-flex;
+  display: flex;
   position: absolute;
   bottom: 0px;
   right: 0px;
   z-index: 3;
-  padding: 0.2rem;
+  padding: 0rem;
   margin: 0px;
   width: 2.9rem;
   max-width: 3.5rem;
   height: 0.9rem;
   max-height: 1.1rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 
   color: white;
   font-size: 0.5rem;
