@@ -18,6 +18,7 @@ Basic responsive web practices using modern HTML, CSS and Javascript practices w
 `[-]`  User `sections` class or tag to try out modern layout techniques such as grid and flex boxes.  
 `[-]` Figure out how to select the nth document object with CSS  
 `[ ]` Create a Rainbow responsive webpage and use Grids and Flex-Boxes to explore those technologies.  
+`[ ]` create a page where the section flow into two columns like a newspaper.  
 
 ## `X-UA-Compatible` meta tag
 
