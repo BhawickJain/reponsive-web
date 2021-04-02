@@ -85,8 +85,3 @@ a {
 .size-label-hide {
   opacity: 0;
 }
-
-/* Explain why this need to be after .size-label-hide inorder to work */
-.size-label {
-  opacity: 100;
-}

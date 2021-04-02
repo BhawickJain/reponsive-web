@@ -46,7 +46,10 @@ let page_el = document.querySelector(".page");
 page_el.addEventListener(
   "click",
   function (ev) {
-    if (ev.target.className.toLowerCase() === "size-label") {
+    if (
+      (ev.target.className.toLowerCase() === "size-label") |
+      (ev.target.className.toLowerCase() === "size-label size-label-hide")
+    ) {
       ev.target.classList.toggle("size-label-hide");
       console.log(ev);
     }
