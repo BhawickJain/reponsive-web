@@ -69,6 +69,10 @@ section {
   margin-top: 1rem;
 }
 
+section.sub {
+  margin-top: 0rem;
+}
+
 /* p,
 section {
   background-color: #ece8ef;
