@@ -25,23 +25,7 @@ window.onresize = (event) => {
   setMeasure(pages);
 };
 
-// make the first span element disappear when first h1 is clicked
-element.querySelector("h1").onclick = () => {
-  if (element.querySelector("span").style.display === "") {
-    element.querySelector("span").style.display = "none";
-  } else {
-    element.querySelector("span").style.display = "";
-  }
-};
-const toggleSizeLabel = () => {
-  if (element.querySelector("span").style.display === "") {
-    element.querySelector("span").style.display = "none";
-  } else {
-    element.querySelector("span").style.display = "";
-  }
-};
-
-let page_el = document.querySelector(".page");
+let page_el = document.querySelector("body");
 
 page_el.addEventListener(
   "click",
