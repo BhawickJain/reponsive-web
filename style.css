@@ -40,7 +40,6 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-
   color: white;
   font-size: 0.5rem;
   font-style: initial; /* not inheriting from a parent */
@@ -53,8 +52,45 @@ h1 {
   color: white;
 }
 
-p {
+h2 {
+  padding: 0.3rem !important;
+  left: 1rem;
+  /* margin: 0.3rem; */
   background-color: #ece8ef;
+  color: white;
+  background: black;
+  display: block;
+  width: fit-content;
+  margin-bottom: 1rem !important;
+}
+
+section {
+  padding: 0px !important;
+  margin-top: 1rem;
+}
+
+/* p,
+section {
+  background-color: #ece8ef;
+} */
+
+section > p {
+  padding-top: 0rem !important;
+}
+
+section.sub > h2 {
+  color: black;
+  background: transparent;
+  margin: 0px !important;
+}
+
+section.sub > p {
+  padding-left: 2rem !important;
+}
+
+section.sub > h2::before {
+  content: "» ";
+  font-family: serif;
 }
 
 a {
