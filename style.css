@@ -82,17 +82,18 @@ section > p {
   padding-top: 0rem !important;
 }
 
-section.sub > h2 {
+section.sub > h3 {
   color: black;
   background: transparent;
   margin: 0px !important;
+  padding: 0.5rem 1rem;
 }
 
-section.sub > p {
-  padding-left: 1.4rem !important;
-}
+/* section.sub > p {
+  padding-left: 1rem !important;
+} */
 
-section.sub > h2::before {
+section.sub > h3::before {
   content: "» ";
   font-family: serif;
 }
