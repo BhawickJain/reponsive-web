@@ -33,3 +33,23 @@ element.querySelector("h1").onclick = () => {
     element.querySelector("span").style.display = "";
   }
 };
+const toggleSizeLabel = () => {
+  if (element.querySelector("span").style.display === "") {
+    element.querySelector("span").style.display = "none";
+  } else {
+    element.querySelector("span").style.display = "";
+  }
+};
+
+let page_el = document.querySelector(".page");
+
+page_el.addEventListener(
+  "click",
+  function (ev) {
+    if (ev.target.className.toLowerCase() === "size-label") {
+      ev.target.classList.toggle("size-label-hide");
+      console.log(ev);
+    }
+  },
+  false
+);

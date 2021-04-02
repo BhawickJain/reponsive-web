@@ -14,7 +14,7 @@ Basic responsive web practices using modern HTML, CSS and Javascript practices w
 `[x]` Use JS to detect the size of the div and print it in the middle of the div.  
 `[ ]` Add a section div class and style it.  
 `[ ]` Add a Night Mode button with appropriate JS / CSS behaviour. Best if JS can be avoided.  
-`[ ]` Use JS to toggle all `size-label` on and off using [[mdn-css-before-attr]](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
+`[x]` Use JS to toggle all `size-label` on and off using [[mdn-css-before-attr]](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
 `[ ]`  User `sections` class or tag to try out modern layout techniques such as grid and flex boxes.  
 `[ ]` Figure out how to select the nth document object with CSS  
 
